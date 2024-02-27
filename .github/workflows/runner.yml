@@ -6,7 +6,7 @@ on:
 
 jobs:
   Explore-GitHub-Actions:
-    runs-on: self-hosted
+    runs-on: manish-runner
     steps:
       - name: Manish
         run: echo " HELLO THERE "
