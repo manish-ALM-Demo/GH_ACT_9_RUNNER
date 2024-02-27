@@ -1,0 +1,12 @@
+name: GitHub Actions Demo
+on:
+  push:
+    branches:
+      - main  # Adjust this to match your branch name
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: self-hosted
+    steps:
+      - name: Manish
+        run: echo " HELLO THERE "
